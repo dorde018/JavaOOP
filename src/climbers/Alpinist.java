@@ -18,7 +18,8 @@ public class Alpinist extends Climber {
 
 	@Override
 	public void print() {
-		System.out.println("The ID of the alpinist is: " + this.uniqueIdentificationNumber + "\nName and surname: " + this.nameAndSurname + "\nPoints scored:"+this.howManyPointsTheAlpinistHasScored);
+		System.out.println("The ID of the alpinist is: " + this.uniqueIdentificationNumber + "\nName and surname: "
+								+ this.nameAndSurname + "\nPoints scored:"+this.howManyPointsTheAlpinistHasScored);
 		System.out.println("-----------------------------------------");
 	}
 	@Override
@@ -38,8 +39,7 @@ public class Alpinist extends Climber {
 		}
 		else {
 			return false;
-		}
-		
+		}	
 	}
 		
 	public boolean canAlpinsituccessfullyAscendToTheTopOfTheMountain(int ascentOtTheAlpinsit) {

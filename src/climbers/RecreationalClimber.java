@@ -5,7 +5,8 @@ public class RecreationalClimber extends Climber {
 	private String nameOfTheDistrictWhereTheRecreationalClimberIsFrom;
 	private int maximumAscentThatClimberCanReachWithoutEquipment;
 	
-	public RecreationalClimber(int uniqueIdentificationNumber, String nameAndSurname, int weightOfTheEquipment, String nameOfTheDistrictWhereTheRecreationalClimberIsFrom, int maximumAscentThatClimberCanReachWithoutEquipment) {
+	public RecreationalClimber(int uniqueIdentificationNumber, String nameAndSurname, int weightOfTheEquipment,
+			String nameOfTheDistrictWhereTheRecreationalClimberIsFrom, int maximumAscentThatClimberCanReachWithoutEquipment) {
 		super(uniqueIdentificationNumber, nameAndSurname);
 		this.weightOfTheEquipment = weightOfTheEquipment;
 		this.nameOfTheDistrictWhereTheRecreationalClimberIsFrom = nameOfTheDistrictWhereTheRecreationalClimberIsFrom;
@@ -22,7 +23,8 @@ public class RecreationalClimber extends Climber {
 	}
 	@Override
 	public void print() {
-		System.out.println("The ID of the recreational climber is: " + this.uniqueIdentificationNumber +"\nName and surname: "+ this.nameAndSurname + "\nThe District: " +this.nameOfTheDistrictWhereTheRecreationalClimberIsFrom );
+		System.out.println("The ID of the recreational climber is: " + this.uniqueIdentificationNumber +"\nName and surname: "+ this.nameAndSurname 
+									+ "\nThe District: " +this.nameOfTheDistrictWhereTheRecreationalClimberIsFrom );
 		System.out.println();
 		System.out.println("-----------------------------------------");
 	}

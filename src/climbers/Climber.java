@@ -12,7 +12,6 @@ public abstract class Climber extends Mountain  {
 		this.uniqueIdentificationNumber = uniqueIdentificationNumber;
 		this.nameAndSurname = nameAndSurname;		
 	}
-	
 	public int getUniqueIdentificationNumber() {
 		return uniqueIdentificationNumber;
 	}
