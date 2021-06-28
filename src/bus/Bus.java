@@ -27,7 +27,7 @@ public class Bus {
 		this.ticketPrice = ticketPrice;
 	}
 	
-	public void printListOfThePeopleInTheBus(ArrayList <Person> listOfThePersonsInTheBus ) {
+	public void printListOfThePersonsInTheBus(ArrayList <Person> listOfThePersonsInTheBus ) {
 		System.out.println("Company's name: " + this.busCompanyName + " " + "\nThe price of the ticket: " + this.ticketPrice + " eur.\n");
 		System.out.println("List of the persons that are in the bus:\n");
 		String person="";

@@ -25,7 +25,7 @@ public class Main {
 	listOfThePersonsEasyRoad.add(p3);
 	listOfThePersonsEasyRoad.add(p4);
 
-	b1.printListOfThePeopleInTheBus(listOfThePersonsEasyRoad);
+	b1.printListOfThePersonsInTheBus(listOfThePersonsEasyRoad);
 	d1.printDetails();
 	
 	ArrayList<Passenger> listOfThePassengersEasyRoad = new ArrayList<>();
@@ -45,7 +45,7 @@ public class Main {
 	listOfThePersonsStrongWheels.add(p8);
 	
 	
-	b2.printListOfThePeopleInTheBus(listOfThePersonsStrongWheels);
+	b2.printListOfThePersonsInTheBus(listOfThePersonsStrongWheels);
 	d2.printDetails();
 	
 	ArrayList<Passenger> listOfThePassengersStrongWheels = new ArrayList<>();
