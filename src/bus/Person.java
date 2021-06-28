@@ -16,8 +16,7 @@ public abstract class Person {
 	public String getSurname() {
 		return surname;
 	}
-	
-	public void printDetails() {
-	}	
+
+	public abstract void printDetails();
 	
 }

@@ -29,18 +29,18 @@ public class Bus {
 	
 	public void printListOfThePersonsInTheBus(ArrayList <Person> listOfThePersonsInTheBus ) {
 		System.out.println("Company's name: " + this.busCompanyName + " " + "\nThe price of the ticket: " + this.ticketPrice + " eur.\n");
-		System.out.println("List of the persons that are in the bus:\n");
+		System.out.println("The list of the persons that are in the bus:\n");
 		String person="";
 		for (int i = 0; i < listOfThePersonsInTheBus.size(); i++) {
 			person = listOfThePersonsInTheBus.get(i).getName() + " " + listOfThePersonsInTheBus.get(i).getSurname();
 			System.out.println(person);
 		}
-		System.out.println("-----------------------------------------");
+		System.out.println("---------------------------------------------");
 	}
 	
 	public void printDetails(){
 		System.out.println("Company's name: " + this.busCompanyName + " " + "\nThe price of the ticket: " + this.ticketPrice + " eur.");
-		System.out.println("-----------------------------------------");
+		System.out.println("---------------------------------------------");
 	}
 	
 }

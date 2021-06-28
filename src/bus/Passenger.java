@@ -28,19 +28,19 @@ public class Passenger extends Person {
 	public void printDetails() {
 		System.out.println("Passenger's name: " + this.getName() + " " + this.getSurname() + "\nPassenger's money amount: " 
 										+ this.getPassengerAmountOfMoney() );
-		System.out.println("-----------------------------------------");
+		System.out.println("---------------------------------------------");
 	}
 	
-	public void printListOfThePassengers(ArrayList<Passenger>listOfThePassengers) {
-		System.out.println("List of the passengers:\n");
-		String person="";
+	public void printListOfThePassengers(ArrayList<Passenger> listOfThePassengers) {
+		System.out.println("The list of the passengers:\n");
+		String person = "";
 		for (int i = 0; i < listOfThePassengers.size(); i++) {
 		person = listOfThePassengers.get(i).getName() + " " + listOfThePassengers.get(i).getSurname()
 				+ "\nPassenger's money amount: " + listOfThePassengers.get(i).getPassengerAmountOfMoney()
 				+ " eur.\n- - - - - - - - - - - - - - - - - -";
 		System.out.println(person);
 		}
-		System.out.println("-----------------------------------------");
+		System.out.println("---------------------------------------------");
 	}
 	
 }

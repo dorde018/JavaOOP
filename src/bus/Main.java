@@ -58,6 +58,11 @@ public class Main {
 	
 	p1.printListOfThePassengers(listOfThePassengersStrongWheels);
 	
+	ArrayList<Driver> listOfTheDriversOfAllTheCompanies = new ArrayList<>();
+	listOfTheDriversOfAllTheCompanies.add(d1);
+	listOfTheDriversOfAllTheCompanies.add(d2);
+
+	d1.printDriversOfAllTheCompanies(listOfTheDriversOfAllTheCompanies);
 	}
 
 }
