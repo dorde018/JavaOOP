@@ -1,4 +1,4 @@
-package bankCard;
+package bankCards;
 
 public class VisaCard extends PaymentCard {
 	private String nameAndSurname;

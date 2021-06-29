@@ -1,4 +1,4 @@
-package bankCard;
+package bankCards;
 
 import java.util.ArrayList;
 

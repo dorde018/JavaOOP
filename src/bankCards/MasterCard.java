@@ -1,4 +1,4 @@
-package bankCard;
+package bankCards;
 
 public class MasterCard extends PaymentCard{
 

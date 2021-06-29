@@ -1,4 +1,4 @@
-package bankCard;
+package bankCards;
 
 public class PaymentCard {
 	private double sum;
