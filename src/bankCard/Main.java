@@ -40,7 +40,7 @@ public class Main {
 		m4.maintenance();
 		m4.executionOfTheTransaction(2178.15);
 		System.out.println("-----------------------------------------");
-		System.out.println("Avaibable amounts after the transactions:");
+		System.out.println("Available amounts after the transactions:");
 		System.out.println("-----------------------------------------");
 		for (int i = 0; i < theListOfAllTheCards.size(); i++) {
 			theListOfAllTheCards.get(i).printDetails();
