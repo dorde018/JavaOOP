@@ -27,6 +27,11 @@ public class Main {
 		for (int i = 0; i < theListOfAllTheCards.size(); i++) {
 			theListOfAllTheCards.get(i).printDetails();
 		}
+		
+		System.out.println("-----------------------------------------");
+		System.out.println("Available amounts after the transactions:");
+		System.out.println("-----------------------------------------");
+		
 		v1.executionOfTheTransaction(335.43);
 		v2.executionOfTheTransaction(1043.14);
 		v3.executionOfTheTransaction(233.34);
@@ -39,9 +44,7 @@ public class Main {
 		m3.executionOfTheTransaction(183.31);
 		m4.maintenance();
 		m4.executionOfTheTransaction(2178.15);
-		System.out.println("-----------------------------------------");
-		System.out.println("Available amounts after the transactions:");
-		System.out.println("-----------------------------------------");
+		
 		for (int i = 0; i < theListOfAllTheCards.size(); i++) {
 			theListOfAllTheCards.get(i).printDetails();
 		}

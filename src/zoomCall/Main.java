@@ -31,9 +31,6 @@ public class Main {
 		for (int i = 0; i < theListOfTheZoomCalls.size(); i++) {
 				theListOfTheZoomCalls.get(i).startCall();		
 		} 
-		System.out.println("-------------------------------------------");
-		System.out.println("Zoom calls after the actions were performed");
-		System.out.println("-------------------------------------------");
 		
 		h1.subscribe(100);
 		g1.cancel();
@@ -43,6 +40,10 @@ public class Main {
 		g3.cancel();
 		h4.subscribe(150);
 		h4.cancel();
+		
+		System.out.println("-------------------------------------------");
+		System.out.println("Zoom calls after the actions were performed");
+		System.out.println("-------------------------------------------");
 		
 		for (int i = 0; i < theListOfTheZoomCalls.size(); i++) {
 			theListOfTheZoomCalls.get(i).startCall();
