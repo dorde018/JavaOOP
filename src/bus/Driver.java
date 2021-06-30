@@ -21,7 +21,7 @@ public class Driver extends Person {
 	@Override
 	public void printDetails() {
 		System.out.println("Diver's name: " + this.getName() + " " + this.getSurname() + "\nOccupation: " + this.getOccupation());
-		System.out.println("---------------------------------------------");
+		
 	}
 	
 	public void printDriversOfAllTheCompanies(ArrayList<Driver> listOfDriversOfAllTheCompanies) {

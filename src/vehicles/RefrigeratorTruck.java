@@ -2,7 +2,7 @@ package vehicles;
 
 public class RefrigeratorTruck extends Vehicle {
 	private int temperatureInTheRefrigerator;
-	private int  freezerCapacity;
+	private int freezerCapacity;
 	public RefrigeratorTruck(int numberOfTheWheels, int doorNumber, String licensePlate,
 			int temperatureInTheRefrigerator, int freezerCapacity) {
 		super(numberOfTheWheels, doorNumber, licensePlate);

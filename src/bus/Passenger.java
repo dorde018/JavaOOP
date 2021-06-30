@@ -28,7 +28,6 @@ public class Passenger extends Person {
 	public void printDetails() {
 		System.out.println("Passenger's name: " + this.getName() + " " + this.getSurname() + "\nPassenger's money amount: " 
 										+ this.getPassengerAmountOfMoney() );
-		System.out.println("---------------------------------------------");
 	}
 	
 	public void printListOfThePassengers(ArrayList<Passenger> listOfThePassengers) {

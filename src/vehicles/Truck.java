@@ -39,7 +39,7 @@ public class Truck extends Vehicle {
 	@Override
 	public void vehicleDetails() {
 		System.out.println("--------------------------------------------------");
-		System.out.println("Type of the truck: " + typeOfTheTruck + "Door number: " + super.getDoorNumber() + "\nCategory of the vehicle: " + categoryOfTheVehicle 
+		System.out.println("Type of the truck: " + typeOfTheTruck + "\nDoor number: " + super.getDoorNumber() + "\nCategory of the vehicle: " + categoryOfTheVehicle 
 				+  "\nNumber of the trailers: " + numberOfTheTrailers + "\nNumber of the wheels: " + super.getNumberOfTheWheels() +  "\nLicense plate: " + super.getLicensePlate() ); 
 		System.out.println("--------------------------------------------------");
 	}
