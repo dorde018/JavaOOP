@@ -32,7 +32,7 @@ public class Main {
 		whiteRussian.addIngredient(rum);
 		whiteRussian.print();
 		
-		Cocktail sexOnTheBeach = new Cocktail("Sex on the Beach");
+		Cocktail sexOnTheBeach = new Cocktail("Sex on the beach");
 		sexOnTheBeach.addIngredient(vodka);
 		sexOnTheBeach.addIngredient(squeezedOrange);
 		sexOnTheBeach.print();
