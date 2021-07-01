@@ -71,4 +71,4 @@ public class Post {
 		System.out.println("-------------------------------------------");
 	}
 		
-	}
+}
