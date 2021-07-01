@@ -38,7 +38,8 @@ public class Pizza {
 		for (int i = 0; i < listOfTheIngredients.size(); i++) {
 			listOfTheIngredients.get(i).ingredientDetails();
 		}
-		System.out.println("\nThe price of the " + theNameOfThePizza + " is: " + countPriceOfThePizza() + " eur.");
+		System.out.println("\nThe price of the Pizza " + theNameOfThePizza + " is: " + countPriceOfThePizza() + " eur.");
+		System.out.println("-------------------------------------------------------");
 		System.out.println("-------------------------------------------------------");
 	}
 }
